@@ -1,0 +1,105 @@
+.footers {
+    background-color: #121921;
+    color: #fbfbfb;
+
+    color: rgba(255, 255, 255, .7);
+
+    .footer-head {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    h5 {
+        color: #fff;
+        margin: 25px 0;
+        font-size: 18px;
+        font-size: 1.125rem
+    }
+
+    ul li {
+        margin-bottom: 5px;
+
+        a {
+            display: inline-block;
+            color: #fff;
+            opacity: .7;
+        }
+    }
+
+
+}
+
+
+#subscribe {
+    h6 {
+        color: #fff;
+        margin: 15px 0;
+    }
+
+    .form-group {
+        position: relative;
+
+        input[type=email] {
+            border: 0;
+            height: 40px;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            border-radius: 0;
+            padding-left: 15px;
+            font-size: 14px;
+            font-size: .875rem;
+            background-color: #f3f3f3;
+            background-color: rgba(255, 255, 255, .06);
+            color: #fff;
+
+            &:focus {
+                border: 0;
+                box-shadow: none;
+            }
+        }
+
+        input[type=submit] {
+            position: absolute;
+            right: 0;
+            color: #fff;
+            font-size: 13px;
+            font-size: .8125rem;
+            font-weight: 600;
+            top: 0;
+            border: 0;
+            padding: 0 12px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 0 3px 3px 0;
+            background-color: #fc5b62;
+            transition: all .3s ease-in-out;
+            outline: 0
+        }
+    }
+}
+
+
+
+
+
+.follow_us ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-size: 1.25rem;
+
+    &:first-child {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 13px;
+        font-size: .8125rem
+    }
+
+    a {
+        color: #fff;
+        opacity: .7
+    }
+}

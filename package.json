@@ -1,0 +1,14 @@
+{
+  "name": "yacca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css/ --recursive --source-map-root dist/css/ --source-map-embed true"
+  },
+  "author": "code_monkey",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

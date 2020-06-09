@@ -1,0 +1,12 @@
+a {
+    text-decoration: none !important;
+}
+
+.view-all {
+    text-decoration: none;
+    color: #fc5b62;
+
+    &:hover {
+        color: rgb(84, 107, 107);
+    }
+}

@@ -1,0 +1,83 @@
+.filter-list {
+    padding: 10px 0 5px;
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+    z-index: 999999 !important;
+    position: relative;
+
+    ul {
+        margin: 0 15px;
+        list-style: none;
+
+        li {
+            margin-right: 10px;
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+
+            .switch-field {
+                overflow: hidden;
+                border: 1px solid rgba(0, 0, 0, .08);
+                border-radius: 3px;
+
+                input {
+                    position: absolute !important;
+                    clip: rect(0, 0, 0, 0);
+                    height: 1px;
+                    width: 1px;
+                    border: 0;
+                    overflow: hidden;
+
+                    &:checked+label {
+                        box-shadow: none;
+                        color: rgba(0, 0, 0, .9);
+                    }
+                }
+
+                label {
+                    display: inline-block;
+                    min-width: 70px;
+                    color: rgba(0, 0, 0, .5);
+                    font-weight: 600;
+                    font-size: 12px;
+                    font-size: .75rem;
+                    text-align: center;
+                    text-shadow: none;
+                    padding: 10px 12px 8px;
+                    line-height: 1;
+                    border-right: 1px solid rgba(0, 0, 0, .08);
+                    transition: all .2s ease-in-out;
+                    margin: 0;
+                }
+            }
+
+
+            a {
+                transition: all .3s ease-in-out;
+
+                &.contact-us {
+                    border-radius: 3px;
+                    padding: 8px 12px;
+                    margin-bottom: 5px;
+                    display: inline-block;
+                    border: 1px solid rgba(0, 0, 0, .08);
+                    font-size: 12px;
+                    font-size: .75rem;
+                    color: rgba(0, 0, 0, .5);
+                    font-weight: 600;
+                    line-height: 1;
+
+                    &:hover {
+                        color: rgba(0, 0, 0, .8);
+                        border: 1px solid rgba(0, 0, 0, .5);
+                    }
+                }
+            }
+        }
+    }
+}

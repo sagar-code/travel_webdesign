@@ -1,0 +1,74 @@
+.destination-lists {
+    padding: 40px 0;
+
+    .top-destination {
+
+        figure {
+            width: 100%;
+            float: left;
+            margin: 15px 0;
+            overflow: hidden;
+            background: #000;
+            position: relative;
+        }
+    }
+}
+
+.top-destination figure a img {
+    width: 100%;
+    height: auto;
+    opacity: 0.60;
+    display: block;
+}
+
+
+figcaption {
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    padding: 0 25px 20px;
+
+    transition: all 300ms ease-in-out;
+
+    h2 {
+        margin: 0;
+        color: #fff;
+        float: left;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 16px;
+        position: relative;
+        padding: 0 0 0 25px;
+
+        a {
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+
+    .tot-tour {
+        float: right;
+        color: #fee133;
+    }
+
+    .text {
+        font-size: 14px;
+        display: none;
+    }
+}
+
+
+.top-destination:hover {
+    figure {
+        transform: scale(1.01);
+    }
+
+    .text {
+        display: block;
+        color: yellow;
+    }
+
+}

@@ -1,0 +1,17 @@
+hr {
+    border-top: 3px solid rgba(153, 143, 143, 0.459) !important;
+}
+
+.line-left {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: block;
+
+    em {
+        width: 60px;
+        height: 2px;
+        background-color: #fc5b62;
+        display: block;
+    }
+}

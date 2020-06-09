@@ -1,0 +1,28 @@
+.card1 {
+    border-radius: 0px !important;
+
+    .card-body {
+        .card-title {
+            margin-bottom: 0px;
+            color: #333;
+            font-weight: 700;
+        }
+    }
+
+    .list-group {
+        .card-link {
+            font-size: 16px;
+            color: #555;
+
+            &:hover {
+                color: rgb(205, 133, 50);
+            }
+        }
+    }
+}
+
+
+.paragraph {
+    color: #555;
+    font-size: 18px;
+}
